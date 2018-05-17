@@ -1,0 +1,379 @@
+#Main{
+	background-color:#EEEEEE;
+	font-family: Arial, sans-serif;
+	color: #333333;
+
+}
+#head{
+	width: 990px;
+	position: fixed;
+    top: 0;
+	background-color:#ffffff;
+	border-radius: 25px;
+}
+
+#Placeholder{/*Prazan prostor na vrhu stranice za pomicni Meni*/
+	height: 243px;
+}
+
+#Glavni_Background{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (GENERICNA)*/
+	height:840px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
+#Glavni_Background_nama{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (Na "O Nama" Stranici)*/
+	height:1580px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+}
+#Glavni_Background_hydro{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (Na "Hydro Komponente" stranici)*/
+	height:1100px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
+
+#Logo_ime{/*Pozicijoiranje liste tj. stupaca*/
+	height: 100px;
+	padding: 0;
+	overflow: hidden;
+	list-style-type:none;
+}
+#naslov{/*Stil pisanog imena*/
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	margin: 48px 0px;
+	margin-left: 19px;
+	width: 45%;
+	height:inherit;
+	color: #555554;
+	font-size: 20px;
+	font-weight: bold;
+}
+#Logo_Top{/*Orinalno sluzilo za pomicanje logo*/
+	display: inline-block;
+	list-style-type:none;
+	width: 47%;
+
+}
+#Logo_Drzac{
+	display:inline;
+
+
+}
+#Nasvlov_FB{
+	display:inline;
+
+
+	vertical-align: middle;
+	
+}
+#Menu_pad{
+	padding-top: 0px;
+	padding-left:  10px;
+	padding-right: 10px;
+	
+}
+
+#Sub_Menu_pad{
+	padding: 0px 22px;
+	
+}
+#Menu{
+	background-color:#E9E9E9;
+	height: 70px;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	list-style-type:none;
+	color: #555554;
+	
+}
+.Drop_down{
+	height:281px;
+	width:159px;
+    position: absolute;
+	background-color:#E9E9E9;
+    z-index: 1;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555554;
+	padding: 0px;
+
+	
+}
+
+
+.Drop_gumb_Link{	
+	height: 69px;
+	width: 159px;
+    display: block;
+    text-align: center;
+	padding: 4px 35px;
+	text-decoration: none;
+	color: #555554;
+	max-width: 159px;
+	padding:0px;
+	border-bottom: 1px solid #D1C6C6;
+}
+.Drop_gum_Link:hover {
+	background-color:#666664;
+	cursor:pointer;
+}
+.Drop_ime{
+	padding-top:23px;
+	
+}
+#text{
+	
+	padding: 0;
+	margin: 0;
+}
+#Menu_bar{
+	background-color:#E9E9E9;
+	height: 70px;
+	overflow-y: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555554;
+	list-style-type:none;
+	padding: 0;
+
+}
+#Sub_Menu_bar{
+	background-color:#333333;
+	height: 30px;
+	overflow: hidden;
+	font-size: 20px;
+	color: #FFFFFF;
+	list-style-type:none;
+	padding: 0;
+	margin: -12px;
+
+	}
+#Sub_Menu_gumb{
+	background-color:#333333;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid #D1C6C6;
+	width: 33%;
+	height:inherit;
+}
+#Sub_Menu_gumb:hover {
+	background-color:#666664;
+	cursor:pointer;
+	
+}
+
+#Sub_Menu_gumb_last{
+	background-color:#333333;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 33%;
+	height:inherit;
+}
+#Sub_Menu_gumb_last:hover {
+	background-color:#666664;
+	cursor:pointer;
+}
+
+
+.Menu_gumb{
+	background-color:#E9E9E9;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid #D1C6C6;
+	width: 16.4%;
+	height:inherit;
+}
+.Menu_gumb:hover {
+	background-color:#AAAAAA;
+	cursor:pointer;
+}
+
+
+.Menu_gumb_last{
+	background-color:#E9E9E9;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 16.4%;
+	height:inherit;
+	/*padding: 9px 0px;*/
+}
+
+.Menu_gumb_last:hover {
+	background-color:#AAAAAA;
+	cursor:pointer;
+}
+
+
+#Sub_Menu_gumb_Link{
+	height: inherit;
+    display: block;
+    text-align: center;
+	padding: 4px 35px;
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+#Menu_gumb_Link_D{
+	text-decoration: none;
+	color: #555554;
+	display: block;
+	height: inherit;
+}
+
+.Menu_ime{
+	padding: 9px 0px;
+	
+	
+}
+#Menu_pad ul li a.trenutna{
+	background-color:#333333;
+	color:#cccccc;
+}
+
+
+
+
+#Menu_gumb_Link_D{
+	text-decoration: none;
+	color: #555554;
+	display: block;
+	height: inherit;
+}
+
+
+#Menu_gumb_Link{
+	height: inherit;
+    display: block;
+    text-align: center;
+	padding: 14px 35px;
+	text-decoration: none;
+	color: #555554;
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#Tekst{
+	color: #333333;
+	font-family:Arial;
+	font-size: 16px;
+	padding: 0px 11px;
+
+	
+	
+}
+.Tekst_stupac_tekst{
+	color: #333333;
+	font-family:Arial;
+	font-size: 16px;
+	display:inline-block;
+	width:46%;
+	vertical-align: middle;
+}
+#O_nama_s{
+}
+.Tekst_stupac_slika{
+	display:inline-block;
+	vertical-align: top;
+	float: right;
+	
+}
+#O_nama_2{
+	width: 450px;
+	height:600px;
+	border: 1px solid #999999;
+
+}
+#Hydro_2{
+	width:380px;
+	height:359px;
+	border: 1px solid #999999;
+	margin-top:25px;
+}
+#Tech{
+	
+	width:50%;
+}
+#Tech_1{
+	
+}
+.Slika{
+	padding: 0px 12px;
+}
+#banner{
+	border: 1px solid #999999;
+}
+#Disclaimer{
+	color: #333333;
+	font-family:Arial;
+	font-size: 10px;
+	text-align:center;
+	padding: 20px 0px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#Menu_Gumb{
+
+	height: inherit;
+	width: auto;
+	margin: 0px 21px  0px42px;
+	padding: 21px 42px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	
+	
+}
+#Menu_Gumb_Double{
+
+	height: inherit;
+	margin: 0px9px 0px;
+	padding: 9px 42px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	
+	
+}
+*/
