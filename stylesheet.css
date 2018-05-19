@@ -1,0 +1,424 @@
+body{
+	background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}/* This is the gradient background*/
+#menuicon{
+	position:fixed;
+	margin-top:-2cm;
+	z-index:48;
+} /* The Icon for the menu */
+
+
+.separator{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	/*background-image: url("https://cdn.discordapp.com/attachments/330266586445512722/362722349704806400/bg.png");*/
+	width:100%;
+	height:100px;
+	/*overflow:visible;*/
+	/*position:relative;*/
+	z-index: 1;
+	opacity: 0.4;
+}/*Blue line between DIVs*/
+
+.menu{
+	background-color:#707070;
+	left: -300px;
+	height: 28%;
+	position: fixed;
+	border-top: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+	z-index:45;
+	margin-top:-2cm;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+  font-family: Garamond, sans-serif;
+  line-height: 45px;
+  padding-left:4px;
+  padding-right:4px;
+  padding-bottom: 3px;
+  padding-top: 2px;
+}
+
+.text{
+	font-family:Times New Roman, Garamond;
+	font-size:24;
+}
+.text2{
+	font-family:Times New Roman, Garamond;
+	font-size:18;
+}
+.text3{
+	font-family:Garamond;
+	font-size:24;
+	margin-top: 9.5em;
+}
+.underline{
+	text-decoration: underline
+}
+.test43{
+	width:15%;
+
+}
+.list{
+	border-bottom: 1px solid #FFFFFF
+}
+.menu a{
+	color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menucloseicon{
+	cursor: pointer;
+	text-align:center;
+	font-family: Garamond, sans-serif;
+	background-color:red;
+	padding-left:4px;
+  padding-right:4px;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  line-height: 45px;
+}
+
+#logodiv{/*LOGO Position*/
+	text-align:center;
+	width:100%;
+	position:inital;
+	margin-bottom:5cm;
+	margin-top:2cm;
+}
+#logo{/*LOGO SIZE*/
+	height:55%;
+}
+#Aboutus{/*This is the about us div*/
+	/*background-color:#3C00B5;*/
+	height:16.5em;
+	width:100%;
+	text-align:center;
+	display:block;
+	margin-bottom:0;
+	z-index: 1;
+	border-top: 2px solid 000000;
+	
+	
+}
+
+#selector1{
+	color:red;
+	font-size:25;
+}
+
+#videodiv{/*VIDEO BLOCK PROPERTIES*/
+	/*background-color:#3C00A5;*/
+	height:40.845em;
+	width:100%;
+	margin-left:-1em;
+	text-align:center;
+	display:block;
+	margin-bottom:0;
+	
+}/*OUT OF ORDER*/
+#videotitle{/*Title of the video block*/
+	font-family:Garamond;
+	font-size:33;
+	/*color:white;*/
+	margin: 0 0 0 0
+}
+#video{/*VIDEO*/
+	margin-top:0em;
+	position:fixed;
+	margin-top:-2cm;
+	margin-left:-1em;
+	z-index:500;
+	
+}
+#playvideo{ /*Text options for "PLAY VIDEO"*/
+	display:block;
+	z-index:490;
+	font-size:45;
+	font-family:Garamond;
+	text-decoration:none;
+	color:black;
+	margin-top:0em;
+	margin-bottom:2em;
+
+}
+#playvidiv{
+	z-index:480;
+}
+
+#closevideo{ /*Red X for closing the Video*/
+	color:red;
+	font:Garamond;
+	font-size:40;
+	position:fixed;
+	margin-top:-0.7em;
+	z-index:501;
+	text-decoration:none;
+}
+#offerdiv{/*OFFER BLOCK PROPERTIES*/
+	/*background-color:#3E00C4;*/
+	height:40.845em;
+	width:100%;
+	margin-left:-1em;
+	text-align:center;
+	margin-top:0;
+}
+#offer1{
+	float:left;
+	text-align:center;
+	background-color:#3B00AA;
+	font-family:Garamond;
+	color:white;
+	margin-left:3.5em;
+	display:inline-block;
+	padding-right:9em;
+	padding-left:9em;
+	margin-right:2em;
+	padding-bottom:33em;
+	float:initial;
+
+  
+
+}
+#offer2{
+	float:left;
+	text-align:center;
+	background-color:#3B00AA;
+	font-family:Garamond;
+	color:white;
+	margin-left:8em;
+	display:inline-block;
+	padding-right:9em;
+	padding-left:9em;
+	padding-bottom:33em;
+	float:initial;
+	
+
+
+}
+#offer3{
+	float:left;
+	text-align:center;
+	background-color:#3B00AA;
+	font-family:Garamond;
+	color:white;
+	margin-left:10em;
+	display:inline-block;
+	padding-right:9em;
+	padding-left:9em;
+	padding-bottom:33em;
+	float:initial;
+	
+
+}
+
+#Contactus{
+	/*background-color:#3D00CE;*/
+	height:40.845em;
+	width:100%;
+	margin-left:-1em;
+	text-align:center;
+	margin-top:0;
+}
+#MeettheTeam{
+	/*background-color:#3E00DD;*/
+	height:40.845em;
+	width:100%;
+	margin-left:-1em;
+	text-align:center;
+	display:block;
+	margin-bottom:0;
+}
+#stairs{
+	margin-top:10em;
+	position:relative;
+	width:100%;
+	z-index: -1;
+}
+#steps{
+	height:15em;
+	width:20em;
+	margin-left:5em;
+	margin-top:5em;
+	position:absolute;
+	text-align:center;
+}
+#inst{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+
+}
+#step1{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+	
+}
+#step1B{
+	font-family:Garamond;
+	display:block;
+	margin-left:3.5em;
+	margin-top:17em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	display:block;
+z-index: 5;
+}
+
+
+#step2{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+	
+}
+#step2B{
+	font-family:Garamond;
+	display:block;
+	margin-left:11em;
+	margin-top:15em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#step3{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+}
+#step3B{
+	font-family:Garamond;
+	display:block;
+	margin-left:19em;
+	margin-top:13em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#step4{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+}
+#step4B{
+	font-family:Garamond;
+	display:block;
+	margin-left:27em;
+	margin-top:10.75em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#step5{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+	
+}
+#step5B{
+	font-family:Garamond;
+	display:block;
+	margin-left:35em;
+	margin-top:8.5em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#step6{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+}
+#step6B{
+	font-family:Garamond;
+	display:block;
+	margin-left:42em;
+	margin-top:6em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#step7{
+	font-family:Garamond;
+	font-size:24;
+	display:block;
+	margin-left:3em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	opacity:0;
+}
+#step7B{
+	font-family:Garamond;
+	display:block;
+	margin-left:50em;
+	margin-top:4em;
+	margin-right:0;
+	margin-bottom:0;
+	position:absolute;
+	z-index: 5;
+}
+#teamphoto1{
+	float:right;
+	display:inline;
+}
+
+
+
+#bottombar{
+	background-color:#353535;
+	height:20em;
+	width:100%;
+	margin-left:-1em;
+	text-align:center;
+	display:block;
+	margin-bottom:0;
+}

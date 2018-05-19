@@ -30,29 +30,38 @@ Adriatico O Nama
 
 <div id = "Menu_pad">
 <ul id = "Menu_bar">
-<li class = "Menu_gumb"><a id = "Menu_gumb_Link" class='trenutna' href = "main_adriatico.html" style="padding-top: 21px;"><div id = "Menu_ime">O NAMA</div></a></li>
-<li class = "Menu_gumb">
-<div class = "Drop_down">
+<li class = "Menu_gumb"><a class = "Menu_gumb_Link" id='trenutna' href = "main_adriatico.html" style="padding-top: 21px;"><div id = "Menu_ime">O NAMA</div></a></li>
+<li class = "Menu_gumb" >
+<div id = "show_hide" class = "Drop_down">
 <div id = "Proizvodi_list" style="padding-left: 0px;">
 <a class = "Drop_gumb_Link" href = "Adriatico_adriatico.html" style = "pading-top:23px; padding-left:2px;"><div class = "Drop_ime">PROIZVODI</div></a>
 <a class = "Drop_gumb_Link" href = "Adriatico_adriatico.html"><div class = "Drop_ime">ADRIATICO</div></a>
 <a class = "Drop_gumb_Link" href = "Mediterraneo_adriatico.html"><div class = "Drop_ime">MEDITERRANEO</div></a>
 <a class = "Drop_gumb_Link" href = "Baltico_adriatico.html"><div class = "Drop_ime">BALTICO</div></a>
 </div>
-</div><a id = "Menu_gumb_Link" onclick="show_proizvod()" style="padding-left: 25px;"><div class = "Menu_ime">PROIZVODI</div></a></li>
-<li class = "Menu_gumb"><a id = "Menu_gumb_Link_D" href = "Hydro_Komponente_adriatico.html"><div class = "Menu_ime">HYDRO </BR> KOMPONENTE</div></a></li>
-<li class = "Menu_gumb"><a id = "Menu_gumb_Link_D" href = "Tech_Specs_adriatico.html"><div class = "Menu_ime">TEHNICKE </BR> SPECIFIKACIJE</div></a></li>
-<li class = "Menu_gumb"><a id = "Menu_gumb_Link_D" href = "main_adriatico.html"><div class = "Menu_ime">BOJE I</br> EFEKTI</div></a></li>
-<li class = "Menu_gumb_last"><a id = "Menu_gumb_Link" href = "Kontakt_adriatico.html"><div class = "Menu_ime">KONTAKT</div></a></li>
+</div><a class = "Menu_gumb_Link"onclick = "show_proizvod()" style="padding-left: 25px;"><div class = "Menu_ime">PROIZVODI</div></a></li>
+<li class = "Menu_gumb"><a class = "Menu_gumb_Link_D" href = "Hydro_Komponente_adriatico.html"><div class = "Menu_ime">HYDRO </BR> KOMPONENTE</div></a></li>
+<li class = "Menu_gumb"><a class = "Menu_gumb_Link_D" href = "Tech_Specs_adriatico.html"><div class = "Menu_ime">TEHNICKE </BR> SPECIFIKACIJE</div></a></li>
+<li class = "Menu_gumb">
+
+<div id = "show_hide_2" class = "Drop_down_2">
+<div id = "Boje_list" style="padding-left: 0px;">
+<a class = "Drop_gumb_Link_D" href = "Adriatico_adriatico.html" ><div class = "Drop_ime" style="padding-top: 10px;padding-bottom: 10px;">BOJE I</br> EFEKTI</div></a>
+<a class = "Drop_gumb_Link" href = "Adriatico_adriatico.html"><div class = "Drop_ime">BOJE</div></a>
+<a class = "Drop_gumb_Link" href = "Mediterraneo_adriatico.html"><div class = "Drop_ime">LAKIRANO</div></a>
+</div>
+</div>
+<a class = "Menu_gumb_Link_D" onclick = "show_boje()" ><div class = "Menu_ime">BOJE I</br> EFEKTI</div></a></li>
+<li class = "Menu_gumb_last"><a class = "Menu_gumb_Link" href = "Kontakt_adriatico.html"><div class = "Menu_ime">KONTAKT</div></a></li>
 
 
 </ul>
 </div>
 <div id = "Sub_Menu_pad">
 <ul id = "Sub_Menu_bar">
-<li id = "Sub_Menu_gumb"><a id = "Sub_Menu_gumb_Link" href = "main_adriatico.html">Linija vrata Adriatico</a></li>
-<li id = "Sub_Menu_gumb"><a id = "Sub_Menu_gumb_Link" href = "main_adriatico.html">Linija vrata Mediterraneo</a></li>
-<li id = "Sub_Menu_gumb_last"><a id = "Sub_Menu_gumb_Link" href = "main_adriatico.html">Linija vrata Baltico</a></li>
+<li id = "Sub_Menu_gumb"><a id = "Sub_Menu_gumb_Link" href = "Adriatico_adriatico.html">Linija vrata Adriatico</a></li>
+<li id = "Sub_Menu_gumb"><a id = "Sub_Menu_gumb_Link" href = "Mediterraneo_adriatico.html">Linija vrata Mediterraneo</a></li>
+<li id = "Sub_Menu_gumb_last"><a id = "Sub_Menu_gumb_Link" href = "Baltico_adriatico.html">Linija vrata Baltico</a></li>
 
 
 </ul>
@@ -68,11 +77,12 @@ Adriatico O Nama
 </div>
 <div class = "Slika">
 <img width="999" height="451" id = "banner" src = "https://cdn.discordapp.com/attachments/330266586445512722/446671056544071680/Untitled.jpg">
+
 </div>
 <div id = "Tekst">
 <!– HTML kodiranje Cro znakovi: (ž==&#382;), (š;==&#353;), (đ==&#273;),(č==&#269;),(ć==&#263;),(Ž==&#381;),(š;==&#352;),(Đ==&#272;),(Č==&#268;),(Ć==&#262;)   –>
 <!- HTLM kodiranje Posebni: («==&#171;,(»==&#187;),(^2==&#178)->
-</br><b>MADE IN ITALY</b></br>
+<b>MADE IN ITALY</b></br>
 Tvrtka Falerlegno nastala je 1977. Danas sadr&#382;i 2 proizvodne linije; u sjedi&#353;tu, Piane di Falerone, na povr&#353;ini od 22000m&#178; proizvode se uglavnom &#353;tokovi i lajsne, u Montelabbateproizvode se vratna krila. Falerlegno omogu&#263;ava konstantnu opskrbu poluproizvoda raznih mjera i dimenzija &#353;to ga &#269;ini idealnim partnerom za stolare i/ili proizvo&#273;a&#269e vrata. Zahvaljuju&#263;i predanosti svojih osniva&#269;a te upotrebi najbolje tehnologije i sirovina, tvrtka Falerlegno posti&#382;e visoke standarde kvalitete po konkurentnim cijenama.
 </br></br><b>PREDNOSTI</b></br>
 Kapacitetom od 800 vrata dnevno dobivamo prednost u brzini isporuke dok kontinuirana dostupnost materijala na skladi&#353;tu omogu&#263;uje isporuke u najkra&#263;em mogu&#263;em roku. Nudimo pouzdanu kvalitetu &#171;Made in Italy&#187;; svi elementi vrata proizvedeni su isklju&#269;ivo u Italiji dok na&#353;e stru&#269no osoblje koje rje&#353;ava sve va&#353;e probleme, savjetuje i olak&#353;ava nedoumice prilikom odabira modela i same monta&#382;e.

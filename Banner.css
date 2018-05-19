@@ -1,0 +1,40 @@
+
+#Logo_ime{/*Pozicijoiranje liste tj. stupaca*/
+	height: 100px;
+	padding: 0;
+	overflow: hidden;
+	list-style-type:none;
+}
+
+#naslov{/*Stil pisanog imena*/
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	margin: 48px 0px;
+	margin-left: 19px;
+	width: 45%;
+	height:inherit;
+	color: #555554;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#Logo_Top{/*Orinalno sluzilo za pomicanje logo*/
+	display: inline-block;
+	list-style-type:none;
+	width: 47%;
+
+}
+#Logo_Drzac{
+	display:inline;
+
+
+}
+
+#Nasvlov_FB{
+	display:inline;
+
+
+	vertical-align: middle;
+	
+}

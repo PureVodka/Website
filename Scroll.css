@@ -1,0 +1,18 @@
+
+.Scroll{
+	padding: 0px 12px;
+	overflow:hidden;
+	max-height: 457.5px;
+	
+}
+
+.Scroll_slika{
+	display: inline-block;
+	position: relative;
+	
+}
+.Scroll_slika_1{
+	display: inline-block;
+	position: relative;
+	
+}

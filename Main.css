@@ -1,0 +1,48 @@
+
+#Main{
+	background-color:#EEEEEE;
+	font-family: Arial, sans-serif;
+	color: #333333;
+
+}
+#head{
+	width: 990px;
+	position: fixed;
+    top: 0;
+	background-color:#ffffff;
+	border-radius: 25px;
+}
+
+#Placeholder{/*Prazan prostor na vrhu stranice za pomicni Meni*/
+	height: 243px;
+}
+
+#Glavni_Background{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (GENERICNA)*/
+	height:840px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
+
+
+#Glavni_Background_nama{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (Na "O Nama" Stranici)*/
+	height:1565px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+}
+#Glavni_Background_hydro{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (Na "Hydro Komponente" stranici)*/
+	height:1100px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
