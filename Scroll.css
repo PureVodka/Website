@@ -1,18 +1,109 @@
 
 .Scroll{
+	position:relative;
 	padding: 0px 12px;
-	overflow:hidden;
-	max-height: 457.5px;
+	max-width: 999px;
+
 	
 }
 
-.Scroll_slika{
-	display: inline-block;
-	position: relative;
+.scroll_show{
+	display:block;
+	margin-right:11px;
+}
+
+.prije {
+  cursor: pointer;
+  position: absolute;
+
+  padding: 205.3px 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 1.5s ease;
+  z-index:205;
 	
 }
-.Scroll_slika_1{
-	display: inline-block;
-	position: relative;
-	
+
+.poslije{
+	 cursor: pointer;
+  position: absolute;
+
+  width: auto;
+  padding: 205.3px 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 1.5s ease;
+
+  z-index:205;
+	right: 0;
+
+  margin-right: 10.4px;
 }
+
+.prije:hover{
+	background-color:gray;
+}
+
+ .poslije:hover{
+	background-color:gray;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+.fadeout {
+  -webkit-animation-name: fadeout;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fadeout;
+  animation-duration: 2.5s;
+}
+
+#tocke{
+	
+	  position:absolute;
+	    width: auto;
+		margin-top: 420px;
+	margin-left:46%;
+	z-index:205;
+}
+
+.tocka {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+.active_2 {
+  background-color: #717171;
+}
+@-webkit-keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@-webkit-keyframes fadeout {
+  from {opacity: 1}
+  to {opacity: .1}
+}
+
+@keyframes fadeout {
+  from {opacity: 1}
+  to {opacity: 0.1}
+}
+.tempout{}

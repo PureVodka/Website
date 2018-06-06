@@ -46,3 +46,27 @@
 	
 	
 }
+#Glavni_Background_adriatico{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (GENERICNA)*/
+	height:1179px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
+#Glavni_Background_tech{/*Bijela pozadina tj. banner na kojem se nalaze svi ostali elementi osim disclaimera (GENERICNA)*/
+	height:1220px; 
+	width:990px; 
+	margin: 0px auto;
+	background-color:#ffffff;
+	border-radius: 25px;
+
+	
+	
+}
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }

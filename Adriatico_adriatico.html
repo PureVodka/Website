@@ -6,6 +6,7 @@ Adriatico Kontakt
 </title>
 
 <link type="text/css"; rel="stylesheet"; href="stil.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="script2.js"></script>
 
 </head>
@@ -13,8 +14,8 @@ Adriatico Kontakt
 
 
 
-<div id = "Glavni_Background" >
-<header id = "head">
+<div id = "Glavni_Background_adriatico" >
+<header id = "head" style = "z-index:999;">
 
 <ul id = "Logo_ime"> 
 <li id = "naslov"> VRATA ADRIATICO </li>
@@ -86,12 +87,23 @@ Adriatico Kontakt
 </header>
 
 <div id = "Placeholder">
-
 </div>
 <div>
-<div width="2000" height="451"  class = "Scroll" data-ride="carousel">
-<img width="999" height="451" id = "banner" onclick = "Slide()" class = "Scroll_slika_1" src = "https://cdn.discordapp.com/attachments/330266586445512722/447396721404936192/Adriatico_naslovnica_za_listanje_1.jpg">
-<img width="999" height="451" id = "banner" class = "Scroll_slika" src = "https://cdn.discordapp.com/attachments/330266586445512722/447396728988106762/Adriatico_naslovnica_za_listanje_2.jpg">
+<div width="999" height="451"  class = "Scroll">
+<div  class = "scroll_show" style= "z-index:3; position:absolute">
+<img width="999" height="451"class = "banner" id ="prvi" src = "https://cdn.discordapp.com/attachments/330266586445512722/447396721404936192/Adriatico_naslovnica_za_listanje_1.jpg">
+</div>
+
+<div   class = "scroll_show" style= "z-index:2; position:absolute;">
+<img width="999" height="451" class = "banner" id ="drugi" src = "https://cdn.discordapp.com/attachments/330266586445512722/447396728988106762/Adriatico_naslovnica_za_listanje_2.jpg">
+</div>
+<a class = "prije"onclick="cheattoggle()" >&#10094;</a>
+<div id = "tocke" style = "text-align:center">
+<span class = "tocka"onclick="cheattoggle()" ></span>
+<span class = "tocka" onclick="cheattoggle()"></span>
+</div>
+<a class = "poslije" onclick="cheattoggle()">&#10095;</a>
+
 </div>
 
 
@@ -101,9 +113,40 @@ Adriatico Kontakt
 
 
 </div>
+<div style = "height: 456px;"></div>
+<div id = "Tekst">
+<div class= "Tekst_AD" >
+<!– HTML kodiranje Cro znakovi: (ž==&#382;), (š;==&#353;), (đ==&#273;),(č==&#269;),(ć==&#263;),(Ž==&#381;),(š;==&#352;),(Đ==&#272;),(Č==&#268;),(Ć==&#262;)   –>
+<!- HTLM kodiranje Posebni: («==&#171;,(»==&#187;),(^2==&#178)->
+</br><b>ADRIATICO</b></br></br>
 
+Drvena sobna vrata</br>
+Vratno krilo bez uklada: </br>
+okvir puno drvo + MDF 4mm</br>
+&#352;tok: puno drvo + MDF 4mm</br>
+</br>
+</br>
+Dimenzije svijetlog otvora: </br>
+Falcana vrata: 600, 700, 750, 800, 900x2100 mm*</br>
+Ravna vrata: 700, 800, 900x2100mm*</br>
+*skra&#263;ivanje po mjeri</br>
+Dimenzije po narud&#382;bi: do 1200x2600mm</br>
+</br>
+</br>
+Standardna dimenzija &#353;toka: 9cm - 11cm, 13cm, 15cm*</br>
+*prilagodljivo &#353;irim dimenzijama zida</br>
+Lajsne: 7+7cm obostrano, 9+7cm obostrano</br>
 
+</div>
 
+<div  class = 'Tekst_stupac_slika'  >
+<img id="Adriatico_1" src = "https://cdn.discordapp.com/attachments/330266586445512722/454001099423219712/Adriatico_3.jpg" object-fit: contain>
+</div>
+</div>
+</div>
+<div id = "Disclaimer">
+Copyright &copy; 2018 VRATA ADRIATICO All rights reserved.
+</div>
 
 </body>
 

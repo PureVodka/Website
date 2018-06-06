@@ -5,6 +5,7 @@
 Adriatico Kontakt
 </title>
 <link type="text/css"; rel="stylesheet"; href="stil.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="script2.js"></script>
 
 </head>
@@ -13,7 +14,7 @@ Adriatico Kontakt
 
 
 <div id = "Glavni_Background_hydro" >
-<header id = "head">
+<header id = "head" style = "z-index:999;">
 
 <ul id = "Logo_ime"> 
 <li id = "naslov"> VRATA ADRIATICO </li>
@@ -23,7 +24,7 @@ Adriatico Kontakt
 </div>
 </li>
 <li id = "Nasvlov_FB" >
-<a href = "https://www.facebook.com/vrataAdriatico/"><img width="50" height="55" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"></a>
+<a target="_blank" href = "https://www.facebook.com/vrataAdriatico/"><img width="50" height="55" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"></a>
 </li>
 </li>
 </ul>
@@ -49,6 +50,10 @@ Adriatico Kontakt
 <a class = "Drop_gumb_Link_D" href = "Adriatico_adriatico.html" ><div class = "Drop_ime" style="padding-top: 10px;padding-bottom: 10px;">BOJE I</br> EFEKTI</div></a>
 <a class = "Drop_gumb_Link" href = "Adriatico_adriatico.html"><div class = "Drop_ime">BOJE</div></a>
 <a class = "Drop_gumb_Link" href = "Mediterraneo_adriatico.html"><div class = "Drop_ime">LAKIRANO</div></a>
+<div id = "Placeholder">
+
+</div>
+
 </div>
 </div>
 
@@ -89,7 +94,67 @@ Adriatico Kontakt
 
 </div>
 <div id = "Tekst">
+<div style = "z-index: 2; border: 1px solid #999999;">
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 45.6999151, lng: 15.9963305};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgVKPZN-rPHiopha4iQoJOnocOgbJ6f8M&callback=initMap">
+    </script>
+</div>
 
+<div class= "Tekst_stupac_tekst" >
+<!– HTML kodiranje Cro znakovi: (ž==&#382;), (š;==&#353;), (đ==&#273;),(č==&#269;),(ć==&#263;),(Ž==&#381;),(š;==&#352;),(Đ==&#272;),(Č==&#268;),(Ć==&#262;)   –>
+<!- HTLM kodiranje Posebni: («==&#171;,(»==&#187;),(^2==&#178)->
+</br><b>IMPRESSUM</b></br>
+Vrata Adriatico d.o.o. </br> 
+Svetog Mateja 98, </br>
+10 000 Zagreb</br>
+</br>
+OIB: 09248467112</br>
+IBAN: HR64 2340 0091 1107 3269 1</br>
+SWIFT: PBZGHR2X</br>
+</br>
+Proizvodnja i skladi&#353;te: </br>
+Lu&#382;ec 19, Lukavec, </br>
+10 412 Donja Lomnica (Zagreb)</br>
+</br>
+Kontakti:</br>
+T +385 (0)1 626 49 21</br>
+e-mail: <a target="_blank" class = "contatct" href = "mailto:manish@simplygraphix.com">info@vrata-adriatico.hr</a></br>
+<a target="_blank" class = "contatct" href = "https://www.facebook.com/vrataAdriatico/">facebook.com/vrataAdriatico/</a></br>
+<a target="_blank"  class = "contatct" href = "http://www.falerlegno.com">www.falerlegno.com</a></br>
+
+
+</div>
+
+<div  class = 'Tekst_stupac_slika'  >
+<div id="kontakt_1">
+<div style = "padding-left:10px;"></br>
+Lokacija na karti</br></br>
+Proizvodnja i skladi&#353;te:</br>
+Lu&#382;ec 19, Lukavec,</br>
+10 412 Donja Lomnica (Zagreb)</br>
+Hrvatska</br>
+</div>
+ </div>
+</div>
 </div>
 
 
